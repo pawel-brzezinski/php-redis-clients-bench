@@ -1,0 +1,25 @@
+{
+    "require": {
+        "php": "^7.4",
+        "ext-redis": "*",
+        "predis/predis": "^1.1",
+        "symfony/cache": "^3.4"
+    },
+    "require-dev": {
+        "pawel-brzezinski/first-aid-tests-component": "dev-main",
+        "phpbench/phpbench": "^1.1",
+        "pawel-brzezinski/cqrs-component": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "PB\\Redis\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PB\\Redis\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable" : true
+}

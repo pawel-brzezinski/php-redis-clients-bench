@@ -1,0 +1,10 @@
+{
+    "$schema": "./vendor/phpbench/phpbench/phpbench.schema.json",
+    "runner.bootstrap": "./vendor/autoload.php",
+    "runner.file_pattern": "*Bench.php",
+    "runner.path": "./tests/Benchmark",
+    "runner.php_config": {
+        "extension": "redis"
+    },
+    "runner.php_disable_ini": true
+}
